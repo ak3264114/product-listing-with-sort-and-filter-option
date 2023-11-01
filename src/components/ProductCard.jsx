@@ -2,10 +2,9 @@ import * as React from "react";
 
 const ProductCard = ({
 	title,
-	thumbnail = "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+	thumbnail,
 	stock,
 	price,
-	description,
 	discountPercentage,
 	category,
 }) => {
@@ -24,8 +23,6 @@ const ProductCard = ({
 			<div className=""></div>
 			<div className="pb-4 px-6 pt-4">
 				<div className="font-medium text-xl mb-2 truncate">{title}</div>
-				{/* <div className="font-medium mb-2 ">{description}</div> */}
-
 				<div className="text-bold font-medium text-base opacity-90">
 					Available Qty : {stock}
 				</div>
@@ -36,22 +33,6 @@ const ProductCard = ({
 					</span>
 				</div>
 			</div>
-			{/* <a href={`/bike/${slug}`}>
-				<button
-					style={{
-						backgroundColor: "#fed250",
-						width: "100%",
-						color: "black",
-						width: "100%",
-						borderRadius: "0px",
-						textTransform: "none",
-					}}
-					variant="contained"
-				>
-					Book Now &nbsp;<span className="font-bold text-xl">@</span> &nbsp; ₹
-					{price} / day
-				</button>
-			</a> */}
 		</div>
 	);
 };
