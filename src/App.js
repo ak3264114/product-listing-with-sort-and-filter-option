@@ -57,8 +57,8 @@ function App() {
 			<div className="text-center  sticky top-0 z-10 bg-gray-50 border-b border-black py-5">
 				<div className="font-bold text-3xl">Product Listing Page</div>
 
-				<div className="flex justify-center items-center">
-					<div className="mx-2">
+				<div className="flex flex-col sm:flex-row justify-center items-center">
+					<div className="mx-2 flex flex-col sm:flex-row  items-center">
 						<label className="mr-2">Filter by Category:</label>
 						<select
 							value={category}
@@ -76,7 +76,7 @@ function App() {
 							<option value="home-decoration">home-decoration</option>
 						</select>
 					</div>
-					<div className="mx-2">
+					<div className="mx-2 flex flex-col sm:flex-row  items-center">
 						<label className="mr-2">Sort by Price:</label>
 						<select
 							value={sortBy}
