@@ -1,4 +1,4 @@
-# Steps to run this app on localhost
+## Steps to run this app on localhost
 
 - clone the repository
 

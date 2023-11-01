@@ -95,7 +95,7 @@ function App() {
 
 			<div className="bg-gradient-to-tr from-red-500 to-blue-500 pt-3">
 				<div className="flex justify-center min-h-screen">
-					<div className="grid grid-cols-4 gap-6">
+					<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
 						{productData.map((item, index) => (
 							<div className="" key={index}>
 								<ProductCard {...item} />
