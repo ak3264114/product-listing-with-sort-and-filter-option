@@ -6,7 +6,7 @@
 git cline https://github.com/ak3264114/product-listing-with-sort-and-filter-option.git
 ```
 
-## Install required packages
+- Install required packages
 
 ```
 npm i
